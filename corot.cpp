@@ -12,3 +12,16 @@ int main() {
         cout << N_natural << " al cuadrado es: " << cuadrado << "\n";
         contador += 1;
     }
+ // ejercicio 2
+    
+        int numero, i, resto;
+    cout << "Este programa muestra los divisores de un numero." << endl;
+    cout << "ingrese un numero: ";
+    cin >> numero;
+    cout << "sus divisores son: ";
+    for(i = 1; i <= numero; i = i+1){
+        resto = numero % i;
+        if (resto == 0){
+            cout << i << " ";
+        }
+    }
