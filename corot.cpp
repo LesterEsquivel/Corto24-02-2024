@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 // bucle while
@@ -43,5 +42,18 @@ int main() {
     } else {
         cout << "Calificacion invalida. Por favor, ingrese un numero entre 0 y 100." << endl;
     }
-    return 0;
+    //ejercicio de prueba
+
+        int tabla = 0;
+        do{
+            cout<<"INGRESE UN NUMERO: ";
+            cin>>numero;
+
+        }while((numero<1) || (numero>10));
+
+        for(int a=1; a<=10; a++){
+            cout<<tabla<<" * "<<i<<" = "<<numero * i<<endl;
+        }
+        return 0;
 }
+
